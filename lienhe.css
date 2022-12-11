@@ -1,0 +1,25 @@
+.body{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    font-size: 20px;
+    overflow: hidden;
+    padding-left: 600px;
+}
+.text{
+    padding-left: 0px;
+    width: 1500px;
+    text-align: center;
+    font-size: 20px;
+}
+input{
+    height: 50px;
+    width: 453px;
+    margin-bottom: 20px;
+}
+#submit{
+    height: 50px;
+    width: 460px;
+    margin-bottom: 20px;
+}

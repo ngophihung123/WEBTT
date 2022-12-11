@@ -1,0 +1,29 @@
+.body1{
+    display:flex;
+    padding-left: 200px;
+}
+.body1-1{
+    margin-right: 20px;
+}
+h2{
+    padding-left: 100px;
+}
+.anh{
+    justify-content: center;
+    padding-left: 100px;
+}
+.quangcao1{
+    padding-top: 100px;
+    width: 500px;
+    height: 1000px;
+}
+h5{
+    width: 1000px;
+    padding-left: 100px;
+}
+
+h6{
+    max-width: 900px;
+    text-align: center;
+}
+

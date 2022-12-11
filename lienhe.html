@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="c.css">
+    <link rel="stylesheet" href="lienhe.css">
+    <link rel="stylesheet" href="timkiem.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="lienhe.js"></script>
+    <script src="change.js"></script>
+    <title>Liên hệ</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <nav class="container">
+            <a href="index.html" id="logo">
+                <img src="coto.jpg" class="logo" alt="">
+            </a>
+            <ul id="main_menu">
+                <li><a href="" target="_blank">Video</a></li>
+                <li><a href="" target="_blank">Sự Kiện</a></li>
+                <li><a href="" target="_blank">Xã hội</a></li>
+                <li><a href="" target="_blank">Thế Giới</a></li>
+                <li><a href="" target="_blank">Kinh Doanh</a></li>
+                <li><a href="" target="_blank">Kinh Doanh</a></li>
+                <li><a href="lienhe.html" target="_blank">Liên Hệ</a></li>
+                <li><a href="">Full<i class="fas fa-angle-right"></i></a>
+                    <!-- <i class="fas fa-angle-right"></i> đây là dấu mũi tên-->
+                    <ul class="sub-menu">
+                        <li><a href="" target="_blank">Xã hội</a></li>
+                        <li><a href="" target="_blank">Thế giới</a></li>
+                        <li><a href="" target="_blank">Kinh doang</a></li>
+                        <li><a href="" target="_blank">Văn Hóa</a></li>
+                        <li><a href="" target="_blank">Giải trí</a></li>
+                        <li><a href="" target="_blank">Thể thao</a></li>
+                        <li><a href="" target="_blank">Đời sống</a></li>
+                        <li><a href="" target="_blank">Bất động sản</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </nav>
+        </div>
+        <div id="Body1">
+            <div id="main">
+                <div id="left">
+                    <div class="search">
+                        <div class="title">Search by</div>
+                        <div class="content">
+                            <form action="">
+                                <label for="key">Từ Khoá</label>
+                                <input type="text" name="key" id="key" placeholder="#WorldCup2022 "> <br>
+                                <label for="cat">Lĩnh Vực</label> 
+                                <select name="" id="cat" name="cat">
+                                    <option value="">THỂ THAO</option>
+                                    <option value="">PHÁP LUẬT</option>
+                                    <option value="">GIÁO DỤC</option>
+                                    <option value="">Y TẾ</option>
+                                    <option value="">SỨC KHOẺ</option>
+                                    <option value="">CHÍNH TRỊ</option>
+                                    <option value="">XÃ HỘI</option>
+                                </select>
+                                <input type="submit" value="Tìm Kiếm" name="submit" id="submit">
+                            </form>
+                            <div>
+                                <img src="bul.gif" alt="">
+                                <a href="#"> Tìm kiếm nhanh</a>
+                            </div>
+                            <div>
+                                <img src="bul.gif" alt="">
+                                <a href="#">Trợ giúp</a>
+                            </div>           
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img id="img" onclick="changeImage()" src="down1.jpg" alt="">
+                </div>
+            </div>
+        <div class="text">
+            <h2>Liên hệ</h2>
+        </div>
+        <div class="body">
+            <form action="" name="search" class="form">
+                <label for="email"></label>
+                <input type="text" placeholder="Email" name="email" id="email"> <br>
+                <label for="message"></label>
+                <textarea name="message" placeholder="Message" id="message" cols="60" rows="5"></textarea> <br>
+                <label for="password"></label>
+                <input type="text" placeholder="Password" name="password" id="password" size="5"> <br>
+                <input type="submit" value="send" name="submit" id="submit" onclick="validate()">
+              </form>	
+    
+        </div>
+        <div class="footer">
+            <div class="grid">
+                <div class="grid_row">
+                    <h3 class="grid_row_heading">Địa chỉ</h3>
+                    <ul class="footer_list">
+                        <li class="footer_item">Lê Văn Việt, Thủ Đức, Thành phố Hồ Chí Minh (KTX Đại học Giao thông vận tải phân hiệu tại TP.HCM).
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid_row">
+                    <h3 class="grid_row_heading">Thông tin liên hệ</h3>
+                    <ul class="footer_list">
+                        <li class="footer_item">Facebok
+                            <a href="https://www.facebook.com/profile.php?id=100042707790395">Ngô Phi Hùng</a>
+                        </li>
+                        <li class="footer_item">Email: 6251071032@st.utc2.edu.vn</li>
+                        <li class="footer_item">SĐT: 0563027271</li>
+                    </ul>
+                </div>
+                <div class="grid_row">
+                    <h3 class="grid_row_heading">Lời cảm ơn</h3>
+                        <div class="lastcmt">Trang web được lấy ý tưởng từ báo mới</div>
+                        <div class="lastcmt">Cảm ơn bạn đã truy cập</div>
+                </div>
+            </div>
+</body>
+</html>
